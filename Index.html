@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive CSS Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with Navigation (Flexbox) -->
+  <header class="site-header">
+    <h1 class="logo">My Website</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Layout (Grid) -->
+  <main class="main-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>Additional navigation or content can go here.</p>
+    </aside>
+
+    <!-- Main Content -->
+    <section class="content">
+      <h2>Welcome</h2>
+      <p>This section uses a CSS Grid layout combined with Flexbox for cards. Resize the browser to see the responsiveness in action.</p>
+
+      <!-- Card Section (Flexbox) -->
+      <div class="card-container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Responsive Web Design Example</p>
+  </footer>
+</body>
+</html>
